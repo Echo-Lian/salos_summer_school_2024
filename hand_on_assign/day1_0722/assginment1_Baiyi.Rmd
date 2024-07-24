@@ -59,6 +59,11 @@ ggplot(data, aes(x = Vocabulary_size)) +
 # Here in the histogram,the binwidth is deleted to let R decides what is the best bin size. You could also manipulate with different bin sizes to see the outcome.
 ```
 
+```{r}
+# you can visualize histogram in base R
+hist(data$Vocabulary_size)
+```
+
 • Plot the relationship between the Vocabulary size and C-test scores
 
 ```{r}
